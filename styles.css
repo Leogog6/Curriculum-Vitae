@@ -9,10 +9,7 @@
   --max-width: 1200px;
   --gap:2rem
 }
-html {
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
-}
+
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +18,7 @@ html {
 
 img {
   display: flex;
-  width: 100%;
+  width: 70%;
 }
 
 a {
@@ -82,13 +79,13 @@ body {
 }
 
 .header__image img {
-  max-width: 520px;
+  max-width: 300px;
   margin-inline: auto;
   position: relative;
 }
 
 .profile__image img{
-  max-width: 300px;
+  max-width: 200px;
   margin-inline: auto;
   position: relative;
   align-items: center;
